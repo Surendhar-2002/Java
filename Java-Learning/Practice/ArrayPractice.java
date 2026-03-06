@@ -1,0 +1,51 @@
+package Practice;
+
+import java.util.Scanner;
+
+public class ArrayPractice {
+    public static void main(String[] args) {
+        int arr[]={1,7,3,9,4,6};
+
+        int temp;
+
+        // Scanner sc= new Scanner(System.in);
+
+        // boolean found=false;
+
+        // System.out.print("Enter the element to search: ");
+        // int searchKey = sc.nextInt();
+
+        // for(int i=0;i<arr.length;i++){
+        //     if(arr[i]==searchKey){
+        //         System.out.println("Element found at index "+i);
+        //         found=true;
+        //     }
+        // }
+
+        // if(!found){
+        //     System.out.println("Element not found");
+        // }
+
+        // sc.close();
+
+        // for(int i=0;i<arr.length;i++){
+        //     for(int j=i+1;j<arr.length;j++){
+        //         if(arr[i]>arr[j]){
+        //             temp=arr[i];
+        //             arr[i]=arr[j];
+        //             arr[j]=temp;
+        //         }
+        //     }
+        // }
+
+        // for(int i=0;i<arr.length;i++){
+        // System.out.print(arr[i]+" ");
+
+        // }
+
+        for(int i=arr.length-1;i>=0;i--){
+            System.out.print(arr[i]+" ");
+        }
+
+    }
+}
